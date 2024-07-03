@@ -25,6 +25,17 @@ _Still a working progress_
 - ORM? depends on database
 - Docker?
 
+# How to run
+- Clone repo
+- Run the following commands on CMD (Windows). If you use a different OS, please use this link to find instructions on how to run the project. https://expressjs.com/en/starter/generator.html
+> $ cd src
+> 
+> $ cd lexipediapi
+> 
+> $ npm install
+> 
+> $ set DEBUG=lexipediapi:* & npm start
+
 # User stories
 
 **_These are being completed as we go along. No need to create stories for till completetion of the project. Eat the elephant in small chunks_**
@@ -36,10 +47,10 @@ _Still a working progress_
   - ~Add project to Repo~
   - ~Ammend README file to reflect changes (especially tech stack)~
   - ~Push repo to remote~
-  - Test: New Project is set up
-  - Test: New Project compiles
-  - Test: Repo is updated
-  - Test: New Project shows up in remote repo
+  - ~Test: New Project is set up~
+  - ~Test: New Project compiles~
+  - ~Test: Repo is updated~
+  - ~Test: New Project shows up in remote repo~
 
 - As a developer, I want to set up basic data store for the API (06/07/2024)
 
