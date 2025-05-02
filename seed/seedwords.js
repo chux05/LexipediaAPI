@@ -1,0 +1,85 @@
+const seedWords = [
+    {
+      word: "menina",
+      language: "pt",
+      partOfSpeech: "substantivo feminino",
+      pronunciation: "/meˈninɐ/",
+      plural: "meninas",
+      definition: [
+        "Criança do sexo feminino.",
+        "Pessoa jovem do sexo feminino."
+      ],
+      synonyms: ["garota", "moça"],
+      example: [
+        {
+          example: "A menina correu para abraçar a mãe.",
+          author: "João Silva"
+        },
+        {
+          example: "A escola estava cheia de meninas animadas.",
+          author: "Maria Oliveira"
+        }
+      ]
+    },
+    {
+      word: "cachorro",
+      language: "pt",
+      partOfSpeech: "substantivo masculino",
+      pronunciation: "/kaˈʃoʁu/",
+      plural: "cachorros",
+      definition: [
+        "Animal doméstico conhecido por sua lealdade.",
+        "Mamífero carnívoro da família dos canídeos."
+      ],
+      synonyms: ["cão", "canino"],
+      example: [
+        {
+          example: "O cachorro latiu a noite inteira.",
+          author: "Ana Costa"
+        }
+      ]
+    },
+    {
+      word: "felicidade",
+      language: "pt",
+      partOfSpeech: "substantivo feminino",
+      pronunciation: "/fɛlisiˈdadʒi/",
+      plural: "felicidades",
+      definition: [
+        "Estado de quem é feliz.",
+        "Sentimento de satisfação plena."
+      ],
+      synonyms: ["alegria", "contentamento", "satisfação"],
+      example: [
+        {
+          example: "Ela encontrou felicidade nas pequenas coisas.",
+          author: "Carlos Drummond"
+        }
+      ]
+    },
+    {
+      word: "livro",
+      language: "pt",
+      partOfSpeech: "substantivo masculino",
+      pronunciation: "/ˈlivɾu/",
+      plural: "livros",
+      definition: [
+        "Conjunto de folhas encadernadas que contêm textos.",
+        "Obra literária ou científica em forma escrita."
+      ],
+      synonyms: ["obra", "volume", "publicação"],
+      example: [
+        {
+          example: "Ele leu um livro sobre filosofia antiga.",
+          author: "Luiz Almeida"
+        },
+        {
+          example: "Os livros estão organizados na estante.",
+          author: "Bibliotecária da escola"
+        }
+      ]
+    }
+  ];
+  
+  module.exports = seedWords;
+  
